@@ -1,0 +1,14 @@
+﻿
+CharpEgitimKampi301.EFProject projesi 	Database First (Var Olan Veritabanını Kullanma)
+	yöntemli bir Entity Framework veri tabanı uygulamasıdır.
+	Projede new item diyerek Ado.NET Entity Data Model'den elimizdeki veri tabanı modelini
+	projemize entegre ederek başlıyoruz.
+	Entity Framework zaten ADO.NET'ten türetilmiş bir Framework ORM(Object Relational Mapping) teknolojisidir.
+	EgitimKampiEFTravelDb veri tabanı kullanılmıştır.
+
+
+
+
+
+	NOT: VERİ TABANINDA YAPILAN BİR DEĞİŞİKLİĞİ MODELE YANSITMAK ZORUNDAYIZ.
+	Bunun için Mode1.edmx diyagramında sağ tık - Update From Database diyerek yapılan değişiklikler seçilecek finish denmelidir.

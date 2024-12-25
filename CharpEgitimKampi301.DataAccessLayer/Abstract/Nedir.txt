@@ -1,0 +1,6 @@
+﻿Abstract dosyası bizim interfacelermizi tutucak.
+	İnterface'ler bizim şu işimize yarayacak
+		bizim bütün entitilerimiz için bütün entitilerde olan sabit standart
+		metotlarımız var.  Ekle,sil,güncelle,ıd ye göre getir gibi.
+		Burada değişen tek şey bizim entitiy'miz olacak. 
+		Ekle,sil,güncelle,ıd ye göre getir kalıpları aynı kalıcak.

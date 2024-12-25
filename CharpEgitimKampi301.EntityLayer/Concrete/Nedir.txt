@@ -1,0 +1,3 @@
+﻿Somut ifadelerin yer aldığı klasör.
+Genelde bunlar class'lar olur.
+Buranın içerisine sınıfları tanımlıyoruz.

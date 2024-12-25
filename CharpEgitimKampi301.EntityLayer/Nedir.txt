@@ -1,0 +1,4 @@
+﻿Entity veritabanımız ile yazılımımız arasında 
+	ilişki kurmamızı sağlayan kalıcı nesneler olarak tanımlanabilir. 
+	Buradaki Concrete dosyamız bizim veri tabanındaki tablolarımızı temsil
+	eden sınıflardır.

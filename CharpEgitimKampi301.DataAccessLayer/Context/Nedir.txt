@@ -1,0 +1,4 @@
+﻿Context (Bağlam)
+CodeFirst projelerinde bizim veri tabanı
+bağlantı adresini tuttuğumuz ve veri tabanına yansıyacak tabloları tuttuğumuz 
+bir sınıftır.
