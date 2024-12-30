@@ -1,0 +1,4 @@
+﻿   GenericRepository, katmanlı mimaride veri erişim işlemlerini CRUD(Create,Update,Delete,Read) 
+   tüm modeller için genelleştirerek kod tekrarını azaltır ve standartlaştırır. 
+   Farklı tablolar için aynı temel işlemleri sağlarken, gerektiğinde genişletilebilir. 
+   Bu sayede daha modüler, kolay yönetilebilir ve temiz bir veri erişim katmanı sunar.

@@ -56,14 +56,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +103,14 @@
     <ProjectReference Include="..\CharpEgitimKampi301.BusinessLayer\CharpEgitimKampi301.BusinessLayer.csproj">
       <Project>{45b41ca3-db2b-4355-92ae-c00385cc2283}</Project>
       <Name>CharpEgitimKampi301.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CharpEgitimKampi301.DataAccessLayer\CharpEgitimKampi301.DataAccessLayer.csproj">
+      <Project>{BD0D3DAF-1BC0-48DD-BE38-6FA500D7B41F}</Project>
+      <Name>CharpEgitimKampi301.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CharpEgitimKampi301.EntityLayer\CharpEgitimKampi301.EntityLayer.csproj">
+      <Project>{a8f0b829-4cd9-49bc-b840-c661e84d8e82}</Project>
+      <Name>CharpEgitimKampi301.EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,9 @@
+﻿
+
+
+Biliyoruzki entitiylere özgü metotlar vardır. Bunlar CRUD olarak geçer
+Yani Create,Read,Update,Delete metotlarıdır. Fakat biz kendimiz sadece belirli
+entitilere özgü metotlar yazabiliriz. Örnek olarak EfAdminDal sınıfımızda sadece
+Admin sınıfı(tablosu) özel metotlar yazabiliriz. Eklenen son 3 admini getir gibi.
+Entitylere özgü metotları yani CRUD metotlarını  IGenericDal interfaci içinde tanımlamıştık.
+Repositories sınıflarımızda ise yazmıştık.

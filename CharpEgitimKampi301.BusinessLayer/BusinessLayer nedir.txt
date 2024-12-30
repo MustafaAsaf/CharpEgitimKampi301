@@ -1,0 +1,10 @@
+﻿
+Uygulamamızdaki entitilerimizin(customer,product vs.)
+biz bir customer eklemeden önce örnek olarak CustomerName içinde özel sembol
+olmasın gibi kontrollerini yapabiliriz. CustomerSurname alanının 30 karakterden
+fazla olmamasını ayarlayabiliriz.
+
+Bir kişinin customer ekleyip/eklememe işlemini gerçekleştirebilmesi için
+yetki kontrolünü business katmanında yapabiliriz.
+
+DataAccess ile Presentation katmanı arasında köprü işlevi gören bir katmandır.

@@ -41,6 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryService.cs" />
+    <Compile Include="Abstract\ICustomerService.cs" />
+    <Compile Include="Abstract\IGenericService.cs" />
+    <Compile Include="Abstract\IOrderService.cs" />
+    <Compile Include="Abstract\IProductService.cs" />
+    <Compile Include="Concrete\CategoryManager.cs" />
+    <Compile Include="Concrete\CustomerManager.cs" />
+    <Compile Include="Concrete\OrderManager.cs" />
+    <Compile Include="Concrete\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +57,14 @@
       <Project>{bd0d3daf-1bc0-48dd-be38-6fa500d7b41f}</Project>
       <Name>CharpEgitimKampi301.DataAccessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CharpEgitimKampi301.EntityLayer\CharpEgitimKampi301.EntityLayer.csproj">
+      <Project>{A8F0B829-4CD9-49BC-B840-C661E84D8E82}</Project>
+      <Name>CharpEgitimKampi301.EntityLayer</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="BusinessLayer nedir.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

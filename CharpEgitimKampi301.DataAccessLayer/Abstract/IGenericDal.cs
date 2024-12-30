@@ -10,7 +10,7 @@ namespace CharpEgitimKampi301.DataAccessLayer.Abstract
     {
         void Insert(T entity); //Sen t türünde bir entity parametresi alıcaksın.
         void Update(T entity); //Sen t türünde bir entity parametresi alıcaksın.
-        void Delete(int id); //Silme işlemi için dışarıdan bir id değeri alacak.
+        void Delete(T entity); //Silme işlemi için dışarıdan bir id değeri alacak.
         List<T> GetAll(); //Bütün verileri getirecek olan metot.
         T GetById(int id); //Dışarıdan gelen id ye göre veriyi getirecek metot.
     }
